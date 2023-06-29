@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Inter;
+}
+
+.navbar {
+  background: #f55a5a;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.nav-text {
+  padding-left: 10px;
+}
+
+section {
+  margin: 30px 50px;
+}
+
+.info-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img {
+  max-width: 30%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(140, 140, 140, 0.75);
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+}
+.location {
+  padding-left: 5px;
+  padding-right: 10px;
+  color: #2b283a;
+  font-size: 12px;
+  letter-spacing: 1.741px;
+}
+
+.map {
+  color: #918e9b;
+  font-size: 11px;
+  text-decoration-line: underline;
+}
+.name {
+  color: #2b283a;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.dates {
+  color: #2b283a;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.info-text {
+  max-width: 75%;
+  color: #2b283a;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
