@@ -1,4 +1,5 @@
 import React from "react";
+import pinImg from "../images/Fill219.png";
 
 export default function Card(props) {
   return (
@@ -7,7 +8,7 @@ export default function Card(props) {
         <img src={props.image} alt="" className="card-img" />
         <div className="card-info">
           <span className="info-span">
-            <img src="../images/Fill219.png" alt="" className="pin-img" />
+            <img src={pinImg} alt="" className="pin-img" />
             <p className="location">{props.location}</p>
             <a href={props.googleMapsUrl} className="map">
               View on Google Maps

@@ -1,3 +1,7 @@
+import lighthouse from "../images/lighthouse.jpg";
+import monument from "../images/washington-monument.jpg";
+import wheel from "../images/seattle-great-wheel.png";
+
 export default [
   {
     id: 1,
@@ -8,7 +12,7 @@ export default [
     endDate: "14 July, 2023",
     description:
       "The Fort Gratiot Light, the first lighthouse in the state of Michigan, was constructed north of Fort Gratiot in 1825 by Lucius Lyon, who later became one of Michigan's first U.S. Senators.",
-    image: "../images/lighthouse.jpg",
+    image: lighthouse,
   },
 
   {
@@ -20,7 +24,7 @@ export default [
     endDate: "6 June, 2022",
     description:
       "The Washington Monument is an obelisk on the National Mall in Washington, D.C., built to commemorate George Washington, the first President of the United States.",
-    image: "../images/washington-monument.jpg",
+    image: monument,
   },
 
   {
@@ -32,6 +36,6 @@ export default [
     endDate: "12 July, 2021",
     description:
       "The Seattle Great Wheel is a 53-meter tall giant Ferris wheel at Pier 57 on Elliott Bay in Seattle, Washington.",
-    image: "../images/seattle-great-wheel.png",
+    image: wheel,
   },
 ];
